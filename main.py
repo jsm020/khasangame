@@ -15,7 +15,7 @@ app.add_middleware(
 )
 
 # PostgresSQL ulanish malumotlari
-DATABASE_URL = "postgresql://postgres:java8252@192.168.1.100/khasangame"
+DATABASE_URL = "postgresql://postgres:java8252@localhost:5432/khasangame"
 
 # Asinxron funktsiya
 async def connect_to_db():
